@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+.flex-center-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-space-aline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-btn{
+    font-size: 1.6rem;
+    font-weight: 700;
+    max-width: 24rem;
+    height: 6.4rem;
+    border: none;
+    color: white;
+    border-radius: 2.2rem;
+    background-color: #583FBC;
+    padding: 2rem 3.2rem;
+    transition: all 0.5s;
+}
+.book-btn:hover{
+    background-color: #DBDEFA;
+    color: #181945;
+}
+
+.grid-col-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+span{
+    margin-bottom: 1.6rem;
+    color: #583FBC;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
